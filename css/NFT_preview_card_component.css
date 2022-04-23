@@ -1,0 +1,143 @@
+:root {
+  --Soft_blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --Very_dark_blue: hsl(217, 54%, 11%);
+  --Very-dark-blue_card: hsl(216, 50%, 16%);
+  --Very-dark-blue_line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: var(--Very_dark_blue);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  height: 600px;
+  width: 350px;
+  background-color: var(--Very-dark-blue_card);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-nft-card {
+  margin-top: 25px;
+  height: 300px;
+  width: 300px;
+  justify-content: center;
+  background-color: var(--Cyan);
+  border-radius: 10px;
+}
+
+.Equilibrium-card {
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.opacity-pointer{
+    position: relative;
+    top: -102%;
+    height: 301px;
+    width: 300px;
+    background: rgba(0, 255, 246,0.4);
+    border-radius: 10px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-nft-card:hover .opacity-pointer{
+    display: flex;
+    cursor: pointer;
+}
+
+.contenedor-information {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 230px;
+  width: 300px;
+}
+
+.card-title {
+  color: var(--White);
+  font-weight: 400;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.card-subtitle {
+  color: var(--Soft_blue);
+  font-weight: 300;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.card-details {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.left-detail {
+  color: var(--Cyan);
+  font-weight: 600;
+  align-items: center;
+  display: flex;
+}
+.left-detail img {
+  margin-right: 5px;
+}
+
+.rigth-detail {
+  color: var(--Soft_blue);
+  font-weight: 400;
+  align-items: center;
+  display: flex;
+}
+
+.rigth-detail img {
+  margin-right: 5px;
+}
+
+hr {
+  background-color: var(--Very-dark-blue_line);
+  margin-bottom: 15px;
+}
+
+.footer-card {
+  display: flex;
+  align-items: center;
+}
+
+.footer-card img {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.desciption-footer {
+  color: var(--Soft_blue);
+  margin-right: 5px;
+}
+
+.name-person-footer {
+  color: var(--White);
+}
