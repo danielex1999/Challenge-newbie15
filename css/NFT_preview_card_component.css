@@ -76,7 +76,7 @@ body {
   color: var(--White);
   font-weight: 600;
   font-size: 22px;
-  margin-bottom: 15px;
+  margin-bottom: 17px;
 }
 
 .card-subtitle {
@@ -115,9 +115,11 @@ body {
   margin-right: 5px;
 }
 
-hr {
-  background-color: var(--Very-dark-blue_line);
-  margin-bottom: 30px;
+hr{
+  height: 1px;
+  background-color:var(--Very-dark-blue_line);
+  margin-bottom: 15px;
+  border: none;
 }
 
 .footer-card {
@@ -145,9 +147,3 @@ hr {
 }
 
 
-/*Prueba*/
-hr{
-  height: 1px;
-  background-color:var(--Very-dark-blue_line);
-  border: none;
-}
