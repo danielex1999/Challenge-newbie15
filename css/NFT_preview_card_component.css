@@ -66,7 +66,7 @@ body {
 }
 
 .contenedor-information {
-  margin-top: 20px;
+  margin-top: 25px;
   margin-bottom: 20px;
   height: 230px;
   width: 300px;
@@ -74,8 +74,8 @@ body {
 
 .card-title {
   color: var(--White);
-  font-weight: 400;
-  font-size: 22px;
+  font-weight: 600;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
@@ -140,4 +140,12 @@ hr {
 
 .name-person-footer {
   color: var(--White);
+}
+
+
+/*Prueba*/
+hr{
+  height: 1px;
+  background-color:var(--Very-dark-blue_line);
+  border: none;
 }
