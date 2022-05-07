@@ -75,8 +75,8 @@ body {
 .card-title {
   color: var(--White);
   font-weight: 600;
-  font-size: 20px;
-  margin-bottom: 10px;
+  font-size: 18px;
+  margin-bottom: 15px;
 }
 
 .card-subtitle {
@@ -89,9 +89,9 @@ body {
 .card-details {
   display: flex;
   justify-content: space-between;
-  margin-right: 10px;
   font-size: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  font-size: 16px;
 }
 
 .left-detail {
@@ -117,7 +117,7 @@ body {
 
 hr {
   background-color: var(--Very-dark-blue_line);
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
 .footer-card {
@@ -128,18 +128,20 @@ hr {
 .footer-card img {
   width: 30px;
   height: 30px;
-  margin-right: 5px;
+  margin-right: 15px;
   border-radius: 50%;
   border: 1px solid white;
 }
 
 .desciption-footer {
   color: var(--Soft_blue);
-  margin-right: 5px;
+  margin-right: 3px;
+  font-size: 14px;
 }
 
 .name-person-footer {
   color: var(--White);
+  font-size: 14px;
 }
 
 
